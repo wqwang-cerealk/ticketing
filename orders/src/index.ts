@@ -8,7 +8,7 @@ import { PaymentCreatedListener } from './events/listeners/payment-created-liste
 
 //All setup before the application starts
 const start = async () => {
-    console.log("Orders Starting...");
+    console.log("Orders Starting....");
     //check to make sure env variables are defined
     if (!process.env.JWT_KEY) {
         throw new Error("Env JWT_KEY must be defined");
